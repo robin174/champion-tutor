@@ -34,7 +34,7 @@ get_header(); ?>
 											<?php if (get_sub_field('mental_health_cta')): ?>
 												<p><strong><?php the_sub_field('mental_health_cta'); ?></strong></p>
 											<?php else: ?>
-												<section class="type--bg-white">
+												<section class="type--bg-white"><!-- To update to reflect buttons -->
 													<a class="button" href="https://www.champion-tutor.co.uk/contact/"><i class="fak fa-use-ct-crown"></i>Get started</a>
 												</section>
 											<?php endif; ?>
@@ -67,7 +67,7 @@ get_header(); ?>
 						</div>
 						<div class="row">
 							<?php while(have_rows('encouragement_repeater')): the_row(); ?>
-								<div class="col-6 col-lg-3">
+								<div class="col-12 col-md-6 col-lg-3">
 									<section class="unit-content-encouragement h-md-100 d-block">
 										<i class="fak fa-lg fa-use-ct-crown"></i>
 										<p><?php the_sub_field('encouragement_text'); ?></p>

@@ -2,7 +2,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-12 col-md-6">
-				<figure>
+				<figure class="figure--team">
 					<img class="mw-100" src="<?php the_field('headshot'); ?>">
 				</figure>
 			</div>

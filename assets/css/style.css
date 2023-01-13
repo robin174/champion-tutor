@@ -235,6 +235,10 @@ figure.unit-home--headshot {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     border-radius: 50%; }
 
+figure.figure--team img {
+  border: 7px solid #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); }
+
 @media (min-width: 768px) {
   figure {
     margin-bottom: 0; } }
