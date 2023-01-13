@@ -35,7 +35,7 @@ get_header(); ?>
 												<p><strong><?php the_sub_field('mental_health_cta'); ?></strong></p>
 											<?php else: ?>
 												<section class="type--bg-white">
-													<a class="button" href="http://localhost:10043/contact/"><i class="fak fa-use-ct-crown"></i>Get started</a>
+													<a class="button" href="/contact"><i class="fak fa-use-ct-crown"></i>Get started</a>
 												</section>
 											<?php endif; ?>
 										</div>
