@@ -20,7 +20,7 @@ figure.file--logo {
 figure.figure--headshot {
 	margin: $margin--general;
 	& img {
-		border: 7px solid #fff;
+		border: 6px solid #fff;
 		box-shadow: 0 0 10px rgba(0,0,0,0.2);
 		border-radius: 50%;
 	}
@@ -31,7 +31,7 @@ figure.unit-home--headshot {
 	& img {
 		width: 50%;
 		border-radius: 50%;
-		border: 7px solid #fff;
+		border: 6px solid #fff;
 		box-shadow: 0 0 10px rgba(0,0,0,0.2);
 		border-radius: 50%;
 	}
@@ -39,7 +39,7 @@ figure.unit-home--headshot {
 
 figure.figure--team {
 	& img {
-		border: 7px solid #fff;
+		border: 6px solid #fff;
 		box-shadow: 0 0 10px rgba(0,0,0,0.2);
 	}
 }

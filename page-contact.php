@@ -20,13 +20,13 @@ get_header(); ?>
 		<?php endif; ?>
 		
 		<section class="org--page-default type--bg-white">
-			<section style="background-color: #efefef;"><!-- check how other sections are made-->
+			<section style="background-color: #efefef; padding: 50px 0;"><!-- check how other sections are made-->
 	    		<div class="container" >
 	    			<div class="row justify-content-center"><!-- parent tag, check in Capsule -->
 						<div class="col-12 col-md-6">
 							<!-- Capsule CRM form, https://champion-tutor.capsulecrm.com/ -->
 							<form class="mol--form-capsule" action="https://service.capsulecrm.com/service/newlead" accept-charset="UTF-8" method="post">
-								<input type="hidden" name="DEVELOPER" value="TRUE">
+								<!-- <input type="hidden" name="DEVELOPER" value="TRUE"> -->
 								<input type="hidden" name="FORM_ID" value="da7eca6e-f83f-43cb-b0b8-eaf43032b541">
 								<input type="hidden" name="COMPLETE_URL" value="https://www.champion-tutor.co.uk/">
 								<section>
