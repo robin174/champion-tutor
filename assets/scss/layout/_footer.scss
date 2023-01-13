@@ -43,7 +43,8 @@ footer {
 		color: $color--white;
 		font-weight: 400;
 		letter-spacing: 0.01em;
-		padding-right: $padding--general*2;
+		padding-left: $padding--general;
+		padding-right: $padding--general;
 		margin-bottom: $margin--general;
 	}
 }
@@ -54,7 +55,21 @@ footer {
 	margin-bottom: $margin--general;
 }
 
+@media(min-width:576px) {
+	.mol__unit-whoweare {
+		& p {
+			padding-left: unset;
+			padding-right: $padding--general;
+		}
+	}
+}
+
 @media(min-width:768px) {
+	.mol__unit-whoweare {
+		& p {
+			padding-right: $padding--general*2;
+		}
+	}
 	footer {
 		padding: $padding--general*2 0;
 	}
@@ -63,7 +78,7 @@ footer {
 @media(min-width:992px) {
 	.mol__unit-whoweare {
 		& p {
-	padding-right: $padding--general*3;
+			padding-right: $padding--general*3;
 		}
 	}
 	footer {

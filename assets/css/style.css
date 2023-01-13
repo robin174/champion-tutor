@@ -646,7 +646,8 @@ footer {
   color: #fff;
   font-weight: 400;
   letter-spacing: 0.01em;
-  padding-right: 4rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
   margin-bottom: 2rem; }
 
 .file--logo img {
@@ -654,7 +655,14 @@ footer {
   height: 72px;
   margin-bottom: 2rem; }
 
+@media (min-width: 576px) {
+  .mol__unit-whoweare p {
+    padding-left: unset;
+    padding-right: 2rem; } }
+
 @media (min-width: 768px) {
+  .mol__unit-whoweare p {
+    padding-right: 4rem; }
   footer {
     padding: 4rem 0; } }
 

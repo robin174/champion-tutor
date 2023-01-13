@@ -5,12 +5,12 @@
 */ 
 ?>
 		</main><!-- end main -->
-		<footer>
+		<footer class="text-center text-md-start">
 			<div class="container">
                 <div class="row">
                 	<div class="col-12 col-md-6">
                         <div class="mol__unit-whoweare">
-                    		<figure class="file--logo">
+                    		<figure class="file--logo d-flex justify-content-center justify-content-md-start">
                     			<img src="<?php echo get_template_directory_uri(); ?>/assets/images/logo-champion-tutor-wh.svg" alt="Logo - Champion Tutor">
                     		</figure>
 							<p><?php the_field('f_con_text', 'option'); ?></p>
