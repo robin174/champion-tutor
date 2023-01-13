@@ -39,10 +39,12 @@ get_header(); ?>
 			            <?php endwhile; }
 			        wp_reset_query();  // Restore global post data stomped by the_post().
 			        ?>
+			        <?php /*
 			        <div class="col-12">
 						<hr>
 						Tutor CTA
 					</div>
+					*/ ?>
 				</div>
 			</div>
 		</section>
