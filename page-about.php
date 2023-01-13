@@ -30,6 +30,9 @@ get_header(); ?>
 										<h2><?php the_sub_field('our_story_title'); ?></h2>
 										<div><?php the_sub_field('our_story_text'); ?></div>
 										<div><p><strong><?php the_sub_field('our_story_cta'); ?></strong></p></div>
+										<section class="type--bg-white">
+											<a class="button" href="https://www.champion-tutor.co.uk/contact/"><i class="fak fa-use-ct-crown"></i>Get started</a>
+										</section>
 									</div>
 								</div>
 								<div class="col-12 col-md-6 order-1 order-md-2">
