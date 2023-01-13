@@ -1,0 +1,94 @@
+/* Colors
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+$color--primary: #192537; // Dark Blue, rgb(25,37,55);
+$color--secondary: #f6c3ca; // Pink, rgb(246,195,202);
+$color--tertiary: #e0ebfa; // Light blue
+$color--white: #fff; // White
+$color--black: #000; // Black
+
+$color--highlight-light: $color--secondary;
+$color--highlight-dark: $color--secondary;
+
+$box--shadow-light: 0 0 10px rgba(0,0,0,0.3); 
+$box--shadow-dark: 0 0 10px rgba(0,0,0,0.6);
+
+/* Fonts
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+$brand--font-light: 300; // Light
+$brand--font-reg: 400; // Regular
+$brand--font-semi: 500; // Semi
+$brand--font-bold: 600; // Bold
+
+
+/* Variables: Font Sizes
+- - - - - - - - - - - - - - - - - - */
+/* Body font size. By default 16px, based on 16px as 'root em' */
+$brand--font-size: 1rem;
+
+/* Major second scale progression - see https://type-scale.com/ */
+$brand--header-scale: 1.125;
+
+/* Line height is set to the "Golden ratio" for optimal legibility */
+$brand--line-height: 1.618;
+
+body {
+    font-family: $brand--font-reg;
+    line-height: $brand--line-height;
+}
+
+h1, h2, h4, h4, h5, h6 {
+    font-family: $brand--font-bold;
+}
+
+h1 {
+    font-size: $brand--font-size * $brand--header-scale * $brand--header-scale * $brand--header-scale * $brand--header-scale;
+    //margin-bottom: $brand--line-height * 1.5rem;
+}
+
+h2 {
+    font-size: $brand--font-size * $brand--header-scale * $brand--header-scale * $brand--header-scale;
+    //margin-bottom: $brand--line-height * 1.5rem;
+}
+
+h3 {
+    font-size: $brand--font-size * $brand--header-scale * $brand--header-scale;
+    //margin-bottom: $brand--line-height * 1.5rem;
+}
+
+h4 {
+    font-size: $brand--font-size * $brand--header-scale;
+    //margin-bottom: $brand--line-height * 1.5rem;
+}
+
+h5 {
+    font-size: $brand--font-size;
+    //margin-bottom: $brand--line-height * 1.5rem;
+}
+
+h6 {
+    font-size: calc($brand--font-size / $brand--header-scale);
+    //margin-bottom: $brand--line-height* 1.5rem;
+}
+
+
+/* Initial sizing
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+/*  NOTE. html is set to 62.5% so that all the REM measurements throughout Skeleton are based on 10px sizing. So basically 1.5rem = 15px */
+/*  NOTE. If normal, 100% equals 16px sizing. */
+html {
+    font-size: 100%; 
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+	color: $color--primary;
+	font-weight: $brand--font-reg;
+	font-size: 1em; /* currently ems because Chrome bug misinterpreting rems on body element */
+}
+
+$base-value: 1rem; // To test: rems/ems/px
+
+$margin--small: $base-value;
+$margin--general: $base-value*2;
+$padding--small: $base-value;
+$padding--general: $base-value*2;

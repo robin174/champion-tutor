@@ -1,0 +1,50 @@
+// Add typography from https://simplecss.org/
+// Add font
+
+h1, h2, h3 {
+	font-weight: $brand--font-bold;
+}
+
+h2 {
+	font-size: 2rem;
+	margin-bottom:$margin--small*1.5; 
+}
+
+h5 {
+	font-size: 0.9rem;
+}
+
+p {
+	&.emph {
+		font-weight: $brand--font-bold;
+		& i {
+			margin-right: 7px;
+		}
+	}
+	&.last-updated {
+		font-size: 0.9rem;
+		font-weight: $brand--font-bold;
+	}
+}
+
+.ut--uc,  {
+	font-size: 110%;
+	@include headingUC;
+}
+
+.org--page-simple {
+	& h2 {
+		margin-top: $margin--general;
+	}
+	& h3 {
+		margin-top: $margin--small*1.5;
+	}
+	& p {
+	}
+}
+
+ul.bullet--tutor {
+	& li {
+		margin-bottom: $margin--small;
+	}
+}

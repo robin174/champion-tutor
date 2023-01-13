@@ -1,0 +1,103 @@
+footer {
+	background-color: $color--primary;
+	padding: $padding--general*1.5 0;
+	& i {
+		color: $color--white;
+		margin-right: $margin--small/2;
+		&:last-child {
+			margin-right: 0;
+		}
+	}
+	& i.inactive {
+	  cursor: not-allowed;
+	  color: rgba($color--white,0.3);
+	}
+	& .highlight {
+		color: $color--highlight-light;
+	}
+	& a {
+		font-weight: $brand--font-reg;
+		color: $color--white;
+		background-color: unset;
+		margin-right: $margin--small/2;
+		&:hover {
+			background-color: unset;
+			color: $color--highlight-light;
+		}
+		& i {
+			transition: 0.3s;
+			&:hover {
+				color: $color--secondary;
+			}	
+		}
+		&:last-child {
+			margin-right: 0;
+		}
+	}
+}
+
+.mol__unit-whoweare {
+	& p {
+		font-size: 1.3rem;
+		line-height: 1.4;
+		color: $color--white;
+		font-weight: 400;
+		letter-spacing: 0.01em;
+		padding-right: $padding--general*2;
+		margin-bottom: $margin--general;
+	}
+}
+
+.file--logo img {
+	display: block;
+	height: 72px;
+	margin-bottom: $margin--general;
+}
+
+@media(min-width:768px) {
+	footer {
+		padding: $padding--general*2 0;
+	}
+}
+
+@media(min-width:992px) {
+	.mol__unit-whoweare {
+		& p {
+	padding-right: $padding--general*3;
+		}
+	}
+	footer {
+		padding: $padding--general*3 0;
+	}
+}
+
+
+
+
+
+p.atm__copyright {
+	color: rgba($color--white, 0.5);
+  	font-size: 0.8rem;
+  	margin-top: $margin--small;
+  	margin-bottom: 0;
+}
+
+.mol__unit-contact {
+  border-top: solid 2px $color--highlight-dark;
+  padding-top: $padding--small;
+  margin-bottom: $margin--small*3;
+  color: white;
+  &:last-child {
+  	margin-bottom: $margin--small;
+  }
+  & h4 {
+	@include headingUC;
+	color: $color--secondary;
+	font-size: 0.8rem;
+	margin-bottom: 8px;
+  }
+  & span {
+  	font-size: 1.1rem;
+  	letter-spacing: 0.05em;
+  }
+}

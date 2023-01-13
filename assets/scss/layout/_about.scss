@@ -1,0 +1,47 @@
+.unit--content-story {
+	margin-top: $margin--small;
+	margin-bottom: $margin--general;
+	& h4.ut--uc {
+		font-size: 0.9rem;
+	}
+}
+
+.design--left {
+	& .unit--content-story {
+		padding-right: $padding--general;
+	}
+	& figure {
+		margin-top: $margin--general*2;
+	}
+}
+
+.design--right {
+	& .unit--content-story {
+		padding-left: $padding--general;
+	}
+	& figure {
+		margin-top: $margin--general*2;
+	}
+}
+
+@media (min-width: 768px) {
+	.unit--content-story {
+		margin-top: $margin--general*3;
+	}	
+	.design--left {
+		& .unit--content-story {
+			padding-right: $padding--general*2;
+		}
+		& figure {
+			margin: $margin--general*3 0;
+		}
+	}
+	.design--right {
+		& .unit--content-story {
+			padding-left: $padding--general*2;
+		}
+		& figure {
+			margin: $margin--general*3 0;
+		}
+	}
+}

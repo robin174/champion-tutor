@@ -1,0 +1,47 @@
+.type--bg-darkblue {
+	background-color: $color--primary;
+	color: $color--white;
+	& .button {
+		background-color: $color--secondary;
+		color: $color--primary;
+		&:hover {
+			background-color: darken($color--secondary, 10%);
+		}
+	}
+}
+
+.type--bg-lightblue {
+	background-color: $color--tertiary;
+	color: $color--primary;
+	& .button {
+		background-color: $color--primary;
+		color: $color--white;
+		&:hover {
+			background-color: darken($color--primary, 10%);
+		}
+	}
+}
+
+.type--bg-pink {
+	background-color: $color--secondary;
+	color: $color--primary;
+	& .button {
+		background-color: $color--primary;
+		color: $color--white;
+		&:hover {
+			background-color: darken($color--primary, 10%);
+		}
+	}
+}
+
+.type--bg-white {
+	background-color: $color--white;
+	color: $color--primary;
+	& .button {
+		background-color: $color--tertiary;
+		color: $color--primary;
+		&:hover {
+			background-color: darken($color--tertiary, 10%);
+		}
+	}
+}

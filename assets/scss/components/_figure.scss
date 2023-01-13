@@ -1,0 +1,44 @@
+figure {
+	margin: 0;
+	padding: 0;
+	margin-bottom: $margin--general;
+	& figcaption {
+		margin: 2px 0;
+		font-weight: $brand--font-bold;
+		font-size: 0.8rem;
+	}
+}
+
+@media(min-width: 576px) {
+	margin: 0;
+}
+
+figure.file--logo {
+	margin-bottom: $margin--small;
+}
+
+figure.figure--headshot {
+	margin: $margin--general;
+	& img {
+		border: 7px solid #fff;
+		box-shadow: 0 0 10px rgba(0,0,0,0.2);
+		border-radius: 50%;
+	}
+}
+
+figure.unit-home--headshot {
+	text-align: center;
+	& img {
+		width: 50%;
+		border-radius: 50%;
+		border: 7px solid #fff;
+		box-shadow: 0 0 10px rgba(0,0,0,0.2);
+		border-radius: 50%;
+	}
+}
+
+@media(min-width: 768px) {
+	figure {
+		margin-bottom: 0;
+	}
+}

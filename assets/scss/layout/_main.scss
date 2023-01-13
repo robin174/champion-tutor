@@ -1,0 +1,229 @@
+.org--page-introduction {
+	background-color: #f6c3ca;
+	padding: $padding--general*1.5 0;
+	& h1 {
+		margin-top: 0;
+	}
+	& p {
+		font-weight: $brand--font-semi;
+		font-size: 1.2rem;
+		margin-bottom: 0;
+	}
+}
+
+.org--page-default {
+	padding: $padding--small 0;
+}
+
+@media(min-width: 576px) {
+	.org--page-default {
+		padding: $padding--general 0;
+	}
+}
+
+@media(min-width: 768px) {
+	.org--page-default {
+		padding: $padding--general*2 0;
+	}
+}
+
+
+.org--page-simple {
+	padding: $padding--general 0;
+}
+
+
+.block--content {
+	padding: $padding--general*2 0;
+	background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.block--content-video {
+	padding: $padding--general*3 0;
+	background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.block--content-inspiration {
+	text-align: center;
+	padding: $padding--general*2 0;
+	background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    & p {
+    	font-size: 1.3rem;
+    	line-height: 1.6;
+    }
+}
+
+.block--content-thin {
+	padding: 5px 0;
+	background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.block--content-faq {
+	padding-bottom: $padding--general;
+	margin-bottom: $margin--general*1.5;
+	border-bottom: 5px solid $color--tertiary;
+	&:last-child {
+		border-bottom: none;
+		padding-bottom: 0;
+		margin-bottom: 0;
+	}
+}
+
+.unit--content {
+	padding: $padding--general*2 0;
+}
+
+.unit--content-event {
+	margin-bottom: $margin--general;
+	&:last-child {
+		margin-bottom: 0;
+	}
+	& h2 {
+		font-size: 1.8rem;
+		font-weight: $brand--font-semi;
+		margin-bottom: $margin--small/2;
+	}
+	& h4 {
+		font-size: 1rem;
+		font-weight: $brand--font-bold;
+		margin-bottom: $margin--general;
+	}
+	& p {
+		margin-bottom: $margin--general;
+	}
+}
+
+.unit--content-offer {
+	padding: $margin--general*4 0;
+	text-align: center;
+	& h2 {
+		font-size: 6rem;
+		font-weight: $brand--font-bold;
+		margin-top: $margin--small;
+	}
+	& h3 {
+		font-weight: $brand--font-semi;
+		margin-bottom: $margin--general;
+	}
+	& p.disclaimer {
+		text-align: right; 
+		font-size: 0.8rem;
+		font-weight: $brand--font-semi;
+		color: rgba($color--white, 0.5);
+		margin: $margin--small/2 0;
+	}
+}
+
+.unit--content-tutor {
+	& h2 {
+		font-size: 1.4rem;
+		font-weight: $brand--font-bold;
+		margin-bottom: $margin--small/2;
+	}
+	& h4 {
+		font-size: 1rem;
+		font-weight: $brand--font-bold;
+		margin-bottom: $margin--general;
+	}
+	& p {
+		margin-bottom: $margin--general;
+	}
+}
+
+.unit--content-video {
+	& p {
+		font-weight: $brand--font-semi;
+		font-size: 1.2rem;
+		argin-bottom: $margin--general;
+	}
+}
+
+.unit--content-faq {
+	margin-bottom: $margin--general;
+	& h3 {
+		margin-top: $margin--general;
+		margin-bottom: $margin--small*0.5;
+	}
+	& h4 {
+		font-weight: $brand--font-bold;
+		margin-top: $margin--small;
+		margin-bottom: $margin--small*0.5;
+	}
+	& i {
+		margin-right: $margin--small*0.5;
+	}
+}
+
+@media(min-width:768px) {
+	.unit--content-video {
+		margin-right: $margin--general;
+	}
+}
+
+
+.unit--content-testimonial {
+	text-align: center;
+}
+
+.block--content-values {
+	padding: $padding--general*2 0;
+}
+
+.unit-content-value {
+	padding: 30px 20px;
+	padding-top: 35px;
+	background-color: $color--tertiary;
+	color: $color--primary;
+	border-radius: 20px;
+	margin-bottom: 20px;
+	& h4 {
+		text-transform: uppercase;
+		font-size: 1.2rem;
+		font-weight: $brand--font-bold;
+		margin-bottom: 12px;
+	}
+	& p {
+		font-size: 1.1rem;
+		font-weight: $brand--font-semi;
+		margin-bottom: 0;
+	}
+}
+
+.unit-encouragement {
+	padding: 20px 0;
+}
+
+.unit-content-encouragement {
+	padding: 30px 20px;
+	padding-top: 35px;
+	background-color: rgba($color--secondary, 0.7);
+	color: $color--primary;
+	border-radius: 20px;
+	margin-bottom: 20px;
+	& h4 {
+		text-transform: uppercase;
+		font-size: 1.2rem;
+		font-weight: $brand--font-bold;
+		margin-bottom: 12px;
+	}
+	& p {
+		font-size: 1.1rem;
+		font-weight: $brand--font-semi;
+		margin-bottom: 0;
+	}
+}
+
+@media(min-width:992px) {
+	.unit-content-value {
+		height: 100%;
+		margin-bottom: unset;
+	}
+}

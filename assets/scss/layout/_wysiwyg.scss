@@ -1,0 +1,14 @@
+.unit--content-wysiwyg {
+	.type--bg-pink & {
+		& a {
+			color: red;
+		}
+	}
+	.type--bg-lightblue & {
+		color: $color--primary;
+		& a {
+			font-weight: $brand--font-bold;
+			color: $color--primary;
+		}
+	}
+}
