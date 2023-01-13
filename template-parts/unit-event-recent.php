@@ -17,11 +17,17 @@
 			<?php }; ?>
 		</div>
 		<div class="col-12 col-md-8">
-			<h2><?php the_title(); ?></h2>
-			<h4><?php if (get_field('title_location')): ?>
-				<i class="fa-solid fa-lg fa-map-pin"></i>&nbsp;&nbsp;<?php the_field('title_location'); ?>&nbsp;&nbsp;&nbsp;
-			<?php endif; ?>
-			<i class="fa-solid fa-lg fa-calendar-days"></i>&nbsp;&nbsp;<?php the_field('date_picker'); ?></h4>
+			<h2 style="margin-bottom: 10px;"><?php the_title(); ?></h2>
+			<h4>
+				<?php if (get_field('title_location')): ?>
+					<span class="d-block d-md-inline-block" style="margin-bottom: 10px;">
+						<i class="fa-solid fa-lg fa-map-pin"></i>&nbsp;&nbsp;<?php the_field('title_location'); ?>&nbsp;&nbsp;&nbsp;
+					</span>
+				<?php endif; ?>
+				<span class="d-block d-md-inline-block">
+					<i class="fa-solid fa-lg fa-calendar-days"></i>&nbsp;&nbsp;<?php the_field('date_picker'); ?>
+				</span>
+			</h4>
 			<p><?php the_field('text_introduction'); ?></p>
 		</div>
 	</div>

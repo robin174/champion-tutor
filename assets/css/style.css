@@ -369,7 +369,7 @@ nav {
 
 .org--page-introduction {
   background-color: #f6c3ca;
-  padding: 3rem 0; }
+  padding: 2rem 0; }
   .org--page-introduction h1 {
     margin-top: 0; }
   .org--page-introduction p {
@@ -378,13 +378,11 @@ nav {
     margin-bottom: 0; }
 
 .org--page-default {
-  padding: 1rem 0; }
-
-@media (min-width: 576px) {
-  .org--page-default {
-    padding: 2rem 0; } }
+  padding: 2rem 0; }
 
 @media (min-width: 768px) {
+  .org--page-introduction {
+    padding: 3rem 0; }
   .org--page-default {
     padding: 4rem 0; } }
 
