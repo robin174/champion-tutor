@@ -6,10 +6,18 @@
 ?><!DOCTYPE html>
 <html <?php language_attributes(); ?>>
 	<head>
+		<!-- Google tag (gtag.js) -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=G-K8PX2KT9PN"></script>
+		<script>
+		  window.dataLayer = window.dataLayer || [];
+		  function gtag(){dataLayer.push(arguments);}
+		  gtag('js', new Date());
 
-		<!-- CHAMPION TUTOR
+		  gtag('config', 'G-K8PX2KT9PN');
+		</script>
+
+		<!-- General
 		–––––––––––––––––––––––––––––––––––––––––––––––––– -->
-
 		<meta charset="<?php bloginfo( 'charset' ); ?>">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
