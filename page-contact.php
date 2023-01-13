@@ -69,6 +69,7 @@ get_header(); ?>
 					</div>
 				</div>
 			</section>
+			<?php /*
 			<hr>
 			<section style="background-color: #eeeeee;">
 				<div class="container">
@@ -79,6 +80,7 @@ get_header(); ?>
 					</div>
 				</div>
 			</section>
+			*/ ?>
 		</section>
 
 		<section class="mol--page-main">
