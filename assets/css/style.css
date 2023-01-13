@@ -137,7 +137,8 @@ ul.bullet--tutor li {
 
 blockquote {
   font-weight: 500;
-  font-size: 1.4rem;
+  font-size: 1.2rem;
+  line-height: 1.6;
   padding: 1rem;
   margin-bottom: 0; }
   blockquote cite {
@@ -154,6 +155,10 @@ blockquote {
     blockquote.unit-home--blockquote cite {
       font-size: 1.8rem;
       margin-bottom: 1rem; }
+
+@media (min-width: 768px) {
+  blockquote {
+    font-size: 1.4rem; } }
 
 button[type=submit] {
   padding: unset;
@@ -390,7 +395,7 @@ nav {
   padding: 2rem 0; }
 
 .block--content {
-  padding: 4rem 0;
+  padding: 2rem 0;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover; }
@@ -425,6 +430,10 @@ nav {
     border-bottom: none;
     padding-bottom: 0;
     margin-bottom: 0; }
+
+@media (min-width: 576px) {
+  .block--content {
+    padding: 4rem 0; } }
 
 .unit--content {
   padding: 4rem 0; }
